@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GeneratePaperWindow</class>
+ <widget class="QMainWindow" name="GeneratePaperWindow">
+  <property name="windowTitle">
+   <string>Generate Question Paper</string>
+  </property>
+
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="mainLayout">
+
+    <!-- Header Inputs -->
+    <item>
+     <layout class="QFormLayout" name="formHeader">
+      <item row="0" column="0">
+       <widget class="QLabel" name="labelUniversity">
+        <property name="text"><string>University Name:</string></property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="txtUniversity"/>
+      </item>
+
+      <item row="1" column="0">
+       <widget class="QLabel" name="labelDepartment">
+        <property name="text"><string>Department:</string></property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="txtDepartment"/>
+      </item>
+
+      <item row="2" column="0">
+       <widget class="QLabel" name="labelCourse">
+        <property name="text"><string>Course:</string></property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="txtCourse"/>
+      </item>
+
+      <item row="3" column="0">
+       <widget class="QLabel" name="labelTotalMarks">
+        <property name="text"><string>Total Marks:</string></property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="txtTotalMarks"/>
+      </item>
+     </layout>
+    </item>
+
+    <!-- Topic List -->
+    <item>
+     <widget class="QListWidget" name="listTopics">
+      <property name="selectionMode">
+       <enum>QAbstractItemView::MultiSelection</enum>
+      </property>
+     </widget>
+    </item>
+
+    <!-- Preview -->
+    <item>
+     <widget class="QTextBrowser" name="textPreview">
+      <property name="placeholderText">
+       <string>Generated question paper preview will appear here...</string>
+      </property>
+     </widget>
+    </item>
+
+    <!-- Buttons -->
+    <item>
+     <layout class="QHBoxLayout" name="buttonsLayout">
+      <item>
+       <widget class="QPushButton" name="btnGenerate">
+        <property name="text"><string>Generate Paper</string></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnExportPDF">
+        <property name="text"><string>Export PDF</string></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnCancel">
+        <property name="text"><string>Cancel</string></property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+
+   </layout>
+  </widget>
+
+  <addaction name="centralWidget"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

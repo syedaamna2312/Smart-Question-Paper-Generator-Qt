@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>640</width><height>420</height></rect>
+  </property>
+  <property name="windowTitle">
+   <string>Smart Question Paper Generator</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout" >
+    <item>
+     <widget class="QLabel" name="titleLabel">
+      <property name="text"><string>Smart Question Paper Generator</string></property>
+      <property name="alignment"><set>Qt::AlignCenter</set></property>
+      <property name="styleSheet"><string notr="true">font-size:18pt; font-weight:bold; color:#1a237e;</string></property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnAddQuestion">
+      <property name="text"><string>Add Question</string></property>
+      <property name="minimumHeight"><number>44</number></property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnViewQuestionBank">
+      <property name="text"><string>View Question Bank</string></property>
+      <property name="minimumHeight"><number>44</number></property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnGeneratePaper">
+      <property name="text"><string>Generate Paper</string></property>
+      <property name="minimumHeight"><number>44</number></property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnExit">
+      <property name="text"><string>Exit</string></property>
+      <property name="minimumHeight"><number>36</number></property>
+      <property name="styleSheet"><string notr="true">background:#c62828; color:white; font-weight:bold;</string></property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
