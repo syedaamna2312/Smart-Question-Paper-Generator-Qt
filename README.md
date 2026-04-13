@@ -6,11 +6,12 @@ This project is a C++ based application that helps generate question papers usin
 
 ## 🚀 Features
 
-- Add questions dynamically
-- Generate question papers automatically
-- Organized UI system
-- Modular C++ structure (OOP-based design)
-- Built using CMake for cross-platform support
+- Add questions dynamically  
+- Generate question papers automatically  
+- Export question paper as PDF  
+- Organized UI system  
+- Modular C++ structure (OOP-based design)  
+- Built using CMake for cross-platform support  
 
 ---
 
@@ -23,7 +24,13 @@ This project is a C++ based application that helps generate question papers usin
 - UI files (Qt/Custom UI system)
 
 ---
+## 👩‍💻 Author
 
+- Developed by: Syeda Amna  
+- Field: Computer Science & Information Technology  
+- Project Type: Academic DSA Project  
+
+---
 ## 📁 Project Structure
 src/ → Contains all C++ source files
 ui/ → Contains UI design files
@@ -32,9 +39,3 @@ CMakeLists.txt → Build configuration
 
 ---
 
-## ⚙️ How to Build & Run
-
-### Step 1: Clone the repository
-```bash
-git clone https://github.com/syedaamna2312/Smart-Question-Paper-Generator-Qt
-.git
